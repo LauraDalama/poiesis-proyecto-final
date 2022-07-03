@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+@import "./variables/colores";
+@import "./variables/tipografia";
+@import "./variables/tamanios";
+@import "./variables/extend";
+
+
+@import "./secciones/nav.scss";
+
+@import "./secciones/header.scss";
+
+@import "./secciones/footer.scss";
+
+

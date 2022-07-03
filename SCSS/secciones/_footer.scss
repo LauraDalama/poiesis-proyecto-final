@@ -1,0 +1,14 @@
+/* FOOTER */
+.footer {
+    grid-area: footer;
+    text-align: center;
+    margin-top: 100px;
+    background-color: $colorFondo;
+
+    i {
+        font-size: 2rem;
+        display: flexbox;
+        margin: 15px;
+
+    }
+}

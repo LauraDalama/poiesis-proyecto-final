@@ -1,0 +1,5 @@
+Se agregaron Kaywords y descripción en las etiquetas meta
+se agregaron los alt a las imágenes
+se utilizó herramienta para corroborar la optimización del responsive
+se agregó title correspondiente al html
+se utilizó etiqueta STRONG
