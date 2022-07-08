@@ -3,12 +3,33 @@
     grid-area: footer;
     text-align: center;
     margin-top: 100px;
-    background-color: $colorFondo;
+    background-color: #E8871E;
+    width: 100%;
+   
+
 
     i {
         font-size: 2rem;
         display: flexbox;
         margin: 15px;
-
+        color: $colorFondoSecundario;
     }
+
+    div.parrafo{
+        justify-content: center;
+        
+
+        .parrafoFooter {
+            max-width: 200px;
+            max-height: 200px;
+            display: flex;
+            text-align: center;
+           
+            
+        }
+    }
+
+
+
+
 }

@@ -23,3 +23,20 @@
     }
 
 }
+
+@media screen and (max-widht: 768px){
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        width: 959px;
+        align-items: center;
+        height: 300px;
+        justify-content: space-around;
+        
+        border-radius: 25px;
+        margin: 10rem ;
+        background-color: $textColor ;
+    
+    
+    }
+}

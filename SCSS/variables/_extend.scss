@@ -9,7 +9,7 @@
 
 %estiloTitulo{
     font-family: $tipoLetra;
-    color: black;
+    color: $textColor;
 }
 
 %estiloFlexColumn{
@@ -18,7 +18,8 @@
 }
 
 // MIXIN
-@mixin fontStyle($colorFondo, $colorFondoSecundario) {
+@mixin fontStyle($colorFondo, $colorFondoTerciario) {
     background-color:$colorFondo ;
     text-transform: uppercase;
+    
 }

@@ -1,4 +1,5 @@
 .navbar-brand {
+    
     padding-top: var(--bs-navbar-brand-padding-y);
     padding-bottom: var(--bs-navbar-brand-padding-y);
     margin-right: var(--bs-navbar-brand-margin-end);
@@ -19,12 +20,16 @@
     margin: 30px;
     font-family: $tipoLetra;
 
-    &:hover {
-        background-color: $colorFondoSecundario;
-        color: rgb(12, 13, 14);
-        transform: translate(1px);
-        border-radius: 5px;
-    }
+
+
+
+&:hover {
+    background-color: $colorFondoTerciario;
+    color: rgb(12, 13, 14);
+    transform: translate(1px);
+    border-radius: 5px;
+}
 
 }
+
 
