@@ -1,25 +1,25 @@
 // EXTEND
 
-%estiloParrafo{
+%estiloParrafo {
     text-align: center;
     font-family: $tipoLetra;
     color: black;
     margin-top: 30px;
 }
 
-%estiloTitulo{
+%estiloTitulo {
     font-family: $tipoLetra;
     color: $textColor;
 }
 
-%estiloFlexColumn{
+%estiloFlexColumn {
     display: flex;
     flex-direction: column;
 }
 
 // MIXIN
 @mixin fontStyle($colorFondo, $colorFondoTerciario) {
-    background-color:$colorFondo ;
+    background-color: $colorFondo ;
     text-transform: uppercase;
-    
+
 }

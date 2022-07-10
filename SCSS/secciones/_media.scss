@@ -24,7 +24,7 @@
 
 }
 
-@media screen and (max-widht: 768px){
+@media screen and (max-widht: 768px) {
     .formulario {
         display: flex;
         flex-direction: column;
@@ -32,11 +32,11 @@
         align-items: center;
         height: 300px;
         justify-content: space-around;
-        
+
         border-radius: 25px;
-        margin: 10rem ;
+        margin: 10rem;
         background-color: $textColor ;
-    
-    
+
+
     }
 }
